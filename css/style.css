@@ -160,10 +160,9 @@ section {
 /* header       -----------------------------------------------*/
 .header {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
     display: flex;
     justify-content: space-between;
-    width: 90%;
 }
 .logo {
     flex-basis: 20%;
@@ -210,9 +209,15 @@ section {
 /* banner ----------------------------------------------------*/
 .banner {
     background:linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba( 0,0,0,0.25) 100%), url('assets/images/banner-girl.png') no-repeat center 60px, url('assets/images/flower-bkgd.jpg') repeat-x center top;
-    height: 550px;
+    height: 400px;
     position: relative;
-    background-size: cover, 250px 615px,contain;
+    background-size: cover, 150px 369px, cover;
+}
+@media screen and (min-width: 1240px) {
+    .banner {
+        height: 550px;
+        background-size: cover, 250px 615px,contain;
+    }
 }
 
 .banner-text {
