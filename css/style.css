@@ -561,3 +561,28 @@ input[type="submit"]:hover {
 .links span {
     display: none;
 }
+
+@media screen and (min-width: 600px) {
+    .contact .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact {
+        text-align: left;
+    }
+    .links {
+        margin-top: 0;
+        padding-right: 2rem;
+    }
+    .links li{
+        display: block;
+    }
+    .links span {
+        display: inline;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .links {
+        padding-right: 4rem;
+    }
+}
