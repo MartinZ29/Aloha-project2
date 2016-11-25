@@ -426,7 +426,7 @@ h2 span {
 
 .price, .cloth-type {
     color: #969696;
-    margin-top: 1rem;
+    font-weight: bold;
 }
 
 .gallery-cell {
