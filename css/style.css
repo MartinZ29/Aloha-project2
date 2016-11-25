@@ -434,6 +434,16 @@ h2 span {
     text-align: center;
     padding: 3rem 2rem;
 }
+@media all and (min-width:600px){
+.gallery-cell {
+    width:50%;
+    }
+}
+@media all and (min-width:1240px) {
+.gallery-cell {
+    width:25%;
+    }
+}
 
 /* sign-up    ----------------------------------------------*/
 .updates {
@@ -544,23 +554,4 @@ input[type="submit"]:hover {
 .fa {
     display: inline-block;
     text-rendering: auto;
-}
-
-
-/* done with the  icons!!!!!!!!!!! */
-
-
-/*  tablet version    !!!!!!!!!    */
-@media all and (min-width:600px){
-.gallery-cell {
-    width:50%;
-}
-}
-
-/*    desktop version    !!!!!!!!    */
-
-@media all and (min-width:1240px) {
-.gallery-cell {
-    width:25%;
-}
 }
