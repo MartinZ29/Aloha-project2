@@ -390,6 +390,24 @@ h2 span {
     text-decoration: none;
 }
 
+@media screen and (min-width: 600px) {
+    .category1 {
+        flex-basis: 50%;
+    }
+    .category2 {
+        flex-basis: 25%;
+    }
+    .men {
+        border-right: 4px solid white;
+    }
+    .trends, .bags {
+        border-left: 4px solid white;
+    }
+    .womens {
+        border-left: 4px solid white;
+    }
+}
+
 /*    featured list   ------------------------------------------*/
 
 .featured .container {
