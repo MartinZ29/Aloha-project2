@@ -147,6 +147,11 @@ img {
     margin: 0 auto;
     padding: 0 2%;
 }
+@media screen and (min-width: 1240px) {
+    .container {
+        max-width: 1240px;
+    }
+}
 
 section {
     padding: 4rem 0;
