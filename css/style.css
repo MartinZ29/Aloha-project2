@@ -290,10 +290,6 @@ section {
     border-bottom: 1px solid #d7d7d7;
 }
 
-.styles-text {
-    width: 720px; 
-}
-
 h2 span {
     font-style: normal;
     font-weight: bold;
@@ -302,6 +298,17 @@ h2 span {
 .styles p {
     font-size: 1.15rem;
     line-height: 2;
+}
+
+@media screen and (min-width: 600px) {
+    .styles-text {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .styles-text {
+        width: 720px;
+    }
 }
 /*   products selections!!!!!!!       -----------------------*/
 
