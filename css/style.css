@@ -311,13 +311,14 @@ h2 span {
     }
 }
 /*   products selections!!!!!!!       -----------------------*/
+.products {
+    padding: 0;
+}
 
 .p-category {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
-    
 }
 
 .category1 {
@@ -336,33 +337,33 @@ h2 span {
 }
 
 .mens {
-    background: url('../assets/images/mens-category.jpg') no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/mens-category.jpg') no-repeat center center;
     background-size: cover, cover;
     
 }
 
 .trends {
-    background: url('../assets/images/trends-category.jpg') no-repeat center center;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/trends-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .glasses {
-    background: url('../assets/images/glasses-category.jpg') no-repeat center center;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/glasses-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .sale {
-    background: url('../assets/images/sale-category.jpg') no-repeat center center;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/sale-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .bags {
-    background: url('../assets/images/bags-category.jpg') no-repeat center center;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/bags-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .womens {
-    background: url('../assets/images/womens-category.jpg') no-repeat center center;
+    background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/womens-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
