@@ -246,29 +246,22 @@ section {
 }
 
 /* styles ----------------------------------------------*/
-
 .styles {
     text-align: center;
     border-bottom: 1px solid #d7d7d7;
 }
 
 .styles-text {
-    width: 720px;
-    margin: 0 auto;
-    
+    width: 720px; 
 }
 
-.HCS {
-    margin-bottom: 1.5rem;
-}
-
-.HCS span {
+h2 span {
     font-style: normal;
     font-weight: bold;
 }
 
 .styles p {
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     line-height: 2;
 }
 /*   products selections!!!!!!!       -----------------------*/
