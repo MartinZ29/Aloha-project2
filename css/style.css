@@ -87,19 +87,29 @@
     font-style: italic;
 }
 
-/*  !!!!!!!!!!!!!   start here   !!!!!!!!!!!!!    */
+/*  !!!!!!!!!!!!!   global settings here   !!!!!!!!!!!!!    */
 
 html {
     font-size: 14px;
 }
+@media all and (min-width:600px){
+    html {
+        font-size: 16px;
+    }
+}
 
+* {
+    box-sizing: border-box;
+    outline: none;
+}
 
-
-body input {
+body, input {
     font-family:'ralewaylight', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1rem;
+    color: #2d2d2d;
+    line-height: 2;
 }
 
 h2, h3 {
