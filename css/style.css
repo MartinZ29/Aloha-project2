@@ -338,10 +338,6 @@ h2 span {
     text-decoration: none;
 }
 
-
-
-
-
 /*    featured list   ------------------------------------------*/
 
 .featured .container {
@@ -372,22 +368,19 @@ h2 span {
 
 
 /* sign-up    ----------------------------------------------*/
-
 .updates {
-    background: url(images/wave-bkgd.jpg) no-repeat center bottom;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ), url('../assets/images/wave-bkgd.jpg') no-repeat center bottom;
     color: white;
-    padding: 4rem 0;
-    width: 100%;
+    margin-bottom: 8px;
 }
 
 .sign-up {
     width: 80%;
     text-align: center;
-    padding: 20px 20px 20px 20px;
 }
 
 .sign-up p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 2;
 }
 
@@ -399,9 +392,12 @@ h2 span {
 
 input[type="email"] {
     width: 100%;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1.75rem;
     border-radius:25px;
-    border: 0
+    border: 0;
+    color: #2d2d2d;
+    font-family: 'ralewaylight', sans-serif;
+    font-size: 1.5rem;
 }
 
 input[type="submit"] {
@@ -413,12 +409,14 @@ input[type="submit"] {
     top: 0.25rem;
     padding: 0.25rem 1.5rem;
     border: 0;
+    font-family: 'ralewaylight', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 input[type="submit"]:hover {
-    color: darkred;
+    background-color: #b64036;
 }
-
 
 /* footer ----------------------------------*/
 
