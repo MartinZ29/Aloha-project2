@@ -321,45 +321,50 @@ h2 span {
     text-align: center;
 }
 
-.category1 {
-    flex-basis: 48%;
+.category1, .category2 {
     position: relative;
-    height: 230px;
     border: 4px solid white;
 }
 
+.category1 {
+    flex: 2 0 100%;
+    max-width: 100%;
+    border-left: 0;
+    border-right: 0;
+}
+
 .category2 {
-    flex-basis: 24%;
-    position: relative;
-    height: 230px;
-    border: 4px solid white;
-    
+    flex: 1 0 50%;
+    max-width: 50%;
 }
 
 .mens {
     background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/mens-category.jpg') no-repeat center center;
     background-size: cover, cover;
-    
 }
 
 .trends {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/trends-category.jpg') no-repeat center center;
     background-size: cover, cover;
+    border-left: 0;
 }
 
 .glasses {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/glasses-category.jpg') no-repeat center center;
     background-size: cover, cover;
+    border-right: 0;
 }
 
 .sale {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/sale-category.jpg') no-repeat center center;
     background-size: cover, cover;
+    border-left: 0;
 }
 
 .bags {
     background: linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), url('../assets/images/bags-category.jpg') no-repeat center center;
     background-size: cover, cover;
+    border-right: 0;
 }
 
 .womens {
@@ -368,15 +373,16 @@ h2 span {
 }
 
 .c-text {
-    font-family: 'Raleway Web', sans-serif;
+    font-family: 'ralewaylight', sans-serif;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
     position: absolute;
     text-transform: uppercase;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 4px rgba(100,100,100,0.8);
 }
 
 .c-text a {
