@@ -178,7 +178,6 @@ section {
 .cart {
     flex: 0 1 50%;
     text-align: right;
-    width: 50px;
 }
 
 .cart img {
@@ -207,6 +206,35 @@ section {
 .navigation li a {
     text-decoration: none;
     color: #e2574c;
+}
+
+@media screen and (min-width: 600px) {
+    .header {
+        flex-wrap: nowrap;
+    }
+    .logo {
+        flex-basis: 20%;
+        order:1;
+    }
+    .cart {
+        flex-basis: 20%;
+        order: 3;
+    }
+    .cart img {
+        width: 48px;
+    }
+    .navigation {
+        flex-basis: 60%;
+        order: 2;
+    }
+    .navigation ul {
+        border-top: 0;
+        padding-top: 0;
+    }
+    .navigation li {
+        font-size: 0.9rem;
+        margin: 0 0.5rem;
+    }
 }
 
 /* banner ----------------------------------------------------*/
