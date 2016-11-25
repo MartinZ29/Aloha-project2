@@ -112,10 +112,11 @@ body, input {
     line-height: 2;
 }
 
-h2, h3 {
-    font-family: 'playfair-display', sans-serif;
+h1, h2, h3, h4, h5 {
+    font-family: 'playfairdisplay', serif;
     font-style: normal;
     font-weight: normal;
+    line-height: 1;
 }
 
 
