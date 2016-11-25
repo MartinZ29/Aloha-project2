@@ -1,1 +1,25 @@
 # aloha-project2
+
+![image](https://github.com/MartinZ29/aloha-project2/blob/master/documentation/screenshot1.png)
+
+![image](https://github.com/MartinZ29/aloha-project2/blob/master/documentation/screenshot2.png)
+
+#Technology used
+
+HTML /HTML5
+
+CSS /CSS3
+
+JavaScript /jQuery /flickity
+
+#About project2
+
+This is the second project I've done. Add more sections in the website.
+
+Most importantly, I did it in the mobile-first way, with min-width 600px for table, and min-width 1240px for desktop.
+
+In this project, I practise a lot about CSS/ CSS3, and add a little JavsScript.
+
+And first time use flexbox instead of float.
+
+Welcome for all advices.
