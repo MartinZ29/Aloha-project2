@@ -336,33 +336,33 @@ h2 span {
 }
 
 .mens {
-    background: url(images/mens-category.jpg) no-repeat center center;
+    background: url('../assets/images/mens-category.jpg') no-repeat center center;
     background-size: cover, cover;
     
 }
 
 .trends {
-    background: url(images/trends-category.jpg) no-repeat center center;
+    background: url('../assets/images/trends-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .glasses {
-    background: url(images/glasses-category.jpg) no-repeat center center;
+    background: url('../assets/images/glasses-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .sale {
-    background: url(images/sale-category.jpg) no-repeat center center;
+    background: url('../assets/images/sale-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .bags {
-    background: url(images/bags-category.jpg) no-repeat center center;
+    background: url('../assets/images/bags-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
 .womens {
-    background: url(images/womens-category.jpg) no-repeat center center;
+    background: url('../assets/images/womens-category.jpg') no-repeat center center;
     background-size: cover, cover;
 }
 
