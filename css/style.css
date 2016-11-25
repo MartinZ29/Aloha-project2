@@ -119,11 +119,28 @@ h1, h2, h3, h4, h5 {
     line-height: 1;
 }
 
+h2 {
+    font-size: 2.4rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #e2574c;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-family:'ralewaylight', sans-serif;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
 
 /*   for all   -------------------------------------------- */
-* {
-    box-sizing: border-box;
-}
 
 .container {
     width: 100%;
