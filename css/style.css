@@ -453,7 +453,6 @@ h2 span {
 }
 
 .sign-up {
-    width: 80%;
     text-align: center;
 }
 
@@ -465,7 +464,7 @@ h2 span {
 .sign-up-email {
     margin: 2rem auto 0;
     position: relative;
-    width: 67%;
+    width: 90%;
 }
 
 input[type="email"] {
@@ -475,7 +474,7 @@ input[type="email"] {
     border: 0;
     color: #2d2d2d;
     font-family: 'ralewaylight', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 input[type="submit"] {
@@ -489,11 +488,24 @@ input[type="submit"] {
     border: 0;
     font-family: 'ralewaylight', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 input[type="submit"]:hover {
     background-color: #b64036;
+}
+@media screen and (min-width: 600px) {
+    .sign-up-email {
+        width: 67%;
+    }
+    .sign-up {
+        max-width: 720px;
+    }
+}
+@media screen and (min-width: 1240px) {
+    .sign-up {
+        width: 720px;
+    }
 }
 
 /* footer ----------------------------------*/
