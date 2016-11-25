@@ -158,12 +158,9 @@ section {
 }
 
 /* header       -----------------------------------------------*/
-
-
 .header {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -209,7 +206,6 @@ section {
     text-decoration: none;
     color: #e2574c;
 }
-
 
 /* banner ----------------------------------------------------*/
 .banner {
