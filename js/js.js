@@ -8,3 +8,7 @@ $('.gallery').flickity({
     imagesLoaded:true,
     wrapAround:true,
 });
+
+$('.sign-up-email').submit( function(){
+    return false;
+})
