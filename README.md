@@ -22,4 +22,12 @@ In this project, I practise a lot about CSS/ CSS3, and add a little JavsScript.
 
 And first time use flexbox instead of float.
 
+## updates
+
+1.Add Alert when subscribing, and prevent redirect to other pages.
+
+2.Make navi bar fixed at the top of the pages when scoll down.
+
+3.Add jQuery for smooth scrolling when use navi bar to redirect to the sections.
+
 Welcome for all advices.
